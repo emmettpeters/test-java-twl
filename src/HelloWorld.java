@@ -2,14 +2,12 @@ import java.util.Scanner;
 
 public class HelloWorld {
     public static void main(String[] args){
-        int input1 = 23;
-        double input2 = 24.43;
-        int input3 = (int) input2;
-        double myFavNum = 1993.26;
+        Scanner suckAnut = new Scanner(System.in);
+        System.out.println("Enter a number you want to multiply 5 by: ");
+        int userInput = Integer.parseInt(suckAnut.nextLine());
 
-//        char favNum = (char) myFavNum;
-
-        System.out.println(++myFavNum);
+        String result = "5 times " + userInput + " equals " + (int)userInput * 5;
+        System.out.println(result);
     }
 }
 
