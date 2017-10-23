@@ -36,6 +36,8 @@ public class HelloWorld {
 //            }
 //        }
 
+
+
 //        System.out.println("What number do you need the multiples to?");
 //        Scanner question = new Scanner(System.in);
 //        int userInput = Integer.parseInt(question.nextLine());
@@ -44,6 +46,17 @@ public class HelloWorld {
 //            System.out.println(x + "     | " + x*x + "    | " + x*x*x );
 //        }
 
-        
+
+
+        String[] firstWord = {"funny","skipping","happy","falling"};
+        String[] secondWord = {"Kitty","Alligator","Emu","Bunny"};
+
+        System.out.println(firstWord[1] + secondWord[2]);
+
+
+
+
+
+
     }
 }
