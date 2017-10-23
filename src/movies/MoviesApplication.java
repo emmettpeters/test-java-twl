@@ -27,40 +27,35 @@ public class MoviesApplication {
                 case "1":
                     for (Movie movie : MoviesArray.findAll()) {
                         System.out.println(movie.getName());
-                    }
-                    ;
+                    };
                     break;
                 case "2":
                     for (Movie movie : MoviesArray.findAll()) {
                         if (movie.getCategory() == "drama") {
                             System.out.println(movie.getName());
                         }
-                    }
-                    ;
+                    };
                     break;
                 case "3":
                     for (Movie movie : MoviesArray.findAll()) {
                         if (movie.getCategory() == "animated") {
                             System.out.println(movie.getName());
                         }
-                    }
-                    ;
+                    };
                     break;
                 case "4":
                     for (Movie movie : MoviesArray.findAll()) {
                         if (movie.getCategory() == "horror") {
                             System.out.println(movie.getName());
                         }
-                    }
-                    ;
+                    };
                     break;
                 case "5":
                     for (Movie movie : MoviesArray.findAll()) {
                         if (movie.getCategory() == "scifi") {
                             System.out.println(movie.getName());
                         }
-                    }
-                    ;
+                    };
                     break;
                 default:
                     System.out.println("That wasnt one of the options.... FAIL");
